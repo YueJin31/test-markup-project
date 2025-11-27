@@ -47,7 +47,7 @@ gulp.task("html:dev", function () {
     .pipe(replace(/(?<=src=|href=|srcset=)(['"])(\.(\.)?\/)*(img|images|fonts|css|scss|sass|js|files|audio|video)(\/[^\/'"]+(\/))?([^'"]*)\1/gi, "$1./$4$5$7$1"))
     .pipe(
       typograf({
-        locale: ["ru", "en-US"],
+        locale: ["en-US"],
         htmlEntity: { type: "digit" },
         safeTags: [
           ["<\\?php", "\\?>"],
