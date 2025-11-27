@@ -1,0 +1,18 @@
+h1 {
+  font-size: rem(24);
+  font-family: var(--alt-font-family);
+}
+
+h2 {
+  font-size: rem(20);
+}
+
+h3 {
+  font-size: rem(18);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}

@@ -1,0 +1,6 @@
+.grid-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 var(--container-padding);
+  max-width: calc(var(--container-width) + var(--container-padding) * 2);
+}

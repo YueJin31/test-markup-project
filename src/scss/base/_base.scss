@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--bs-font-family);
+  background: var(--off-white);
+  text-wrap: balance;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+}
+
+a {
+  color: var(--black);
+  transition: color 0.3s ease;
+}
